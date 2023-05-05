@@ -1,0 +1,48 @@
+@media (max-width: 768px) {
+  .text-nav {
+    display: none;
+  }
+  #nav-bar {
+    height: 250px;
+    display: block;
+    text-align: left;
+  }
+
+  #nav-bar a:link,
+  a:visited {
+    justify-content: left;
+  }
+  .item1 {
+    border-left: none;
+  }
+  .item {
+    border-right: none;
+    position: relative;
+  }
+  .flex {
+    display: block;
+    border: none;
+    padding-left: 10;
+  }
+  #job-info {
+    height: inherit;
+  }
+  .cer2 {
+    border-left: 0;
+    border-top: 2px solid #d6c08d;
+    padding-top: 10px;
+  }
+  .cer-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  #footer a:link {
+    margin-right: 10px;
+  }
+  .img-cc {
+    width: auto;
+  }
+  #banner {
+    width: 100%;
+  }
+}

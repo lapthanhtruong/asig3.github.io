@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+    margin-left: 5px;
+    margin-right: 25px;
+  }
+  .col-lg-1 {
+    text-align: center;
+  }
+  .col-lg-11 {
+    border-top: 0;
+  }
+  .col-lg-2 {
+    text-align: center;
+  }
+  .col-lg-10 {
+    border-top: 0;
+  }
+  #border1,
+  #border2,
+  #border3,
+  #border4,
+  #border5 {
+    border: 10px solid blue;
+  }
+  #border3 {
+    margin-top: 100px;
+  }
+}
